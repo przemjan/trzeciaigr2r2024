@@ -40,5 +40,7 @@ public class Zmienne {
 
         //       \\ubuckp
 
+        // https://github.com/przemjan/trzeciaIgr2r2024
+
     }
 }

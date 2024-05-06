@@ -8,7 +8,7 @@ public class Srednia5 {
         double srednia;
         srednia = (double)(ocena1 + ocena2) /iloscOcen;
 
-        if (srednia >2) {
+        if (srednia < 2) {
             System.out.println("Bardzo źle " + srednia);
         }
         else if (srednia >= 2) {

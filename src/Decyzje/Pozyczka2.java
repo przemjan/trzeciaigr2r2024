@@ -21,7 +21,7 @@ public class Pozyczka2 {
         System.out.print("Ile lat pracujesz: ");
         staz = scanner.nextDouble();
 
-        if (zarobki >= progZarobki && staz >=progStaz ) {
+        if (zarobki >= progZarobki && staz >=progStaz) {
             System.out.print("Gratulacje, dostałeś pożyczkę");
         }
         else {

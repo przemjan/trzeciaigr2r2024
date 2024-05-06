@@ -3,9 +3,12 @@ package Decyzje;
 public class Newag {
     public static void main(String[] args) {
 
+        //current date
         int day = 21;
         int month = 12;
         int year = 21;
+
+
 
         if(day >= 21 && month >= 11 && year >= 21){
 

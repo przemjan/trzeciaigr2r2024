@@ -11,5 +11,4 @@ public class KompNaOsoba {
         System.out.println("Wynik: " + komputerNaOsoba);
         System.out.printf("Wynik: %.2f", komputerNaOsoba);
     }
-
 }

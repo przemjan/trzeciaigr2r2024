@@ -4,8 +4,8 @@ public class Newag {
     public static void main(String[] args) {
 
         //current date
-        int day = 21;
-        int month = 12;
+        int day = 19;
+        int month = 11;
         int year = 21;
 
 

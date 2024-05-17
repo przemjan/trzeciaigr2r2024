@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Odczyt1 {
     public static void main(String[] args) throws IOException {
 
-        File mojPlik = new File ("danie1.txt");
+        File mojPlik = new File ("danie.txt");
 
 
         Scanner fileScanner = new Scanner (mojPlik);
@@ -22,7 +22,7 @@ public class Odczyt1 {
         //scanner odczytuje kolejne linie pliku (przechowuje pozycję odczytu)
         String linia2 = fileScanner.nextLine();
         System.out.println("Druga lina pliku to: " + linia2);
-        linia = fileScanner.nextLine();
+        //linia = fileScanner.nextLine();
 
 
         fileScanner.close();

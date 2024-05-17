@@ -17,8 +17,6 @@ import java.util.Scanner;public class PetlaWhile2 {
                 twierdzenie = false;
             }
             System.out.println("Podałeś "+ liczba);
-
-
         }
         System.out.println("Wyszedłem z pętli.");
     }

@@ -8,9 +8,7 @@ import java.util.Scanner;
 public class FileWriterDemo {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Podaj nazwę pliku");
-
         String nazwaPliku = scanner.nextLine();
 
 
@@ -18,7 +16,7 @@ public class FileWriterDemo {
 
         PrintWriter pw = new PrintWriter(fw);
 
-        pw.println("Oliwier !nie słucha :(.");
+        pw.println("Mateusz zasypia :(.");
 
         pw.close();
 
